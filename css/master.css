@@ -1,0 +1,87 @@
+/* 22:31 Fri 07/31/2020 */
+body {
+  background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, body {
+  color: #ffffff;
+}
+
+/* left side */
+.side-bar {
+  float: left;
+  width: 30%;
+  position: fixed;
+}
+
+.side-bar>* {
+  padding: 10px 15px;
+}
+
+.side-bar .navigation a,
+.side-bar .tag-list a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  -webkit-transition: color 200ms;
+  -o-transition: color 200ms;
+  transition: color 200ms;
+}
+
+.side-bar .navigation a:hover,
+.side-bar .tag-list a:hover {
+  color: #54D534;
+}
+
+.side-bar .navigation a {
+  font-weight: bold;
+}
+
+/* right side */
+.main {
+  float: right;
+  width: 70%;
+  color: #373F43;
+}
+
+.header .logo {
+  line-height: 1;
+  border: 5px solid #fff;
+  padding: 10px 20px;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: auto;
+}
+
+.article-list, .article {
+  padding: 20px 30px;
+  margin-right: 30%;
+  background: #ffffff;
+}
+
+.article-list .logo {
+  margin-bottom: 25px;
+}
+
+.article-list .item .title,
+.article .title {
+  color: #0061ff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.article-list .item .status,
+.article .status {
+  font-size: 13px;
+  color: #54D534;
+}
+
+.article-list .item>*,
+.article>* {
+  margin: 10px 0;
+}
